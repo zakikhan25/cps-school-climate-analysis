@@ -1,0 +1,29 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     chronic_truancy_pct   R-squared:                       0.641
+Model:                             OLS   Adj. R-squared:                  0.637
+Method:                  Least Squares   F-statistic:                     137.8
+Date:                 Wed, 14 Oct 2026   Prob (F-statistic):           6.09e-94
+Time:                         02:01:35   Log-Likelihood:                -2097.4
+No. Observations:                  545   AIC:                             4207.
+Df Residuals:                      539   BIC:                             4233.
+Df Model:                            5                                         
+Covariance Type:                   HC3                                         
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                    52.1643      2.198     23.733      0.000      47.856      56.472
+C(primary_category)[T.HS]    15.6613      1.498     10.454      0.000      12.725      18.598
+C(primary_category)[T.MS]    -4.3708      2.507     -1.744      0.081      -9.284       0.542
+safety_score                 -5.8662      0.856     -6.856      0.000      -7.543      -4.189
+climate_score                -1.3320      0.417     -3.194      0.001      -2.149      -0.515
+mobility_rate_pct             0.5829      0.046     12.655      0.000       0.493       0.673
+==============================================================================
+Omnibus:                       18.916   Durbin-Watson:                   2.138
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.442
+Skew:                          -0.224   Prob(JB):                     5.47e-08
+Kurtosis:                       4.128   Cond. No.                         180.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

@@ -1,0 +1,49 @@
+CPS SCHOOL CLIMATE & ATTENDANCE - KEY RESULTS
+==================================================
+
+Rows loaded: 650
+SAT averages equal to 0 recoded as missing: 493
+Schools with no progress report removed: 2
+Duplicate school IDs: 0
+Rows after cleaning: 648
+
+Median chronic truancy by school level:
+                  schools  median_truancy  mean_attendance
+primary_category                                          
+HS                    169            66.5             76.2
+ES                    471            40.1             89.1
+MS                      8            37.0             90.2
+
+Median chronic truancy by school type (types with 5+ schools):
+                        schools  median_truancy  mean_attendance
+school_type                                                     
+Citywide-Option              19            55.9             64.3
+Charter                     112            51.5             81.7
+Military academy              6            51.4             85.7
+Small                        25            50.0             83.3
+Neighborhood                397            42.8             87.4
+Selective enrollment         11            38.6             88.7
+Magnet                       43            30.5             90.0
+Regional gifted center       10            15.7             92.6
+Classical                     6            11.2             94.7
+Special Education             8             NaN             76.2
+
+Spearman correlations:
+                                         chronic_truancy_pct  student_attendance_year_2_pct  teacher_attendance_year_2_pct  mobility_rate_pct  suspensions_per_100_students_year_2_pct  climate_score  safety_score
+chronic_truancy_pct                                     1.00                          -0.98                          -0.42               0.64                                     0.61          -0.24         -0.54
+student_attendance_year_2_pct                          -0.98                           1.00                           0.39              -0.62                                    -0.60           0.21          0.47
+teacher_attendance_year_2_pct                          -0.42                           0.39                           1.00              -0.36                                    -0.28           0.28          0.35
+mobility_rate_pct                                       0.64                          -0.62                          -0.36               1.00                                     0.43          -0.18         -0.36
+suspensions_per_100_students_year_2_pct                 0.61                          -0.60                          -0.28               0.43                                     1.00          -0.18         -0.46
+climate_score                                          -0.24                           0.21                           0.28              -0.18                                    -0.18           1.00          0.40
+safety_score                                           -0.54                           0.47                           0.35              -0.36                                    -0.46           0.40          1.00
+
+OLS regression (n=545): R-squared = 0.64
+Intercept                    52.16
+C(primary_category)[T.HS]    15.66
+C(primary_category)[T.MS]    -4.37
+safety_score                 -5.87
+climate_score                -1.33
+mobility_rate_pct             0.58
+
+High schools (n=125): freshmen on-track vs 4-yr graduation r = 0.33, p = 0.000212

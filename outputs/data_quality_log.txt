@@ -1,0 +1,5 @@
+Rows loaded: 650
+SAT averages equal to 0 recoded as missing: 493
+Schools with no progress report removed: 2
+Duplicate school IDs: 0
+Rows after cleaning: 648

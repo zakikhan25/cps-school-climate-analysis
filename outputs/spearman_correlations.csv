@@ -1,0 +1,8 @@
+,chronic_truancy_pct,student_attendance_year_2_pct,teacher_attendance_year_2_pct,mobility_rate_pct,suspensions_per_100_students_year_2_pct,climate_score,safety_score
+chronic_truancy_pct,1.0,-0.98,-0.42,0.64,0.61,-0.24,-0.54
+student_attendance_year_2_pct,-0.98,1.0,0.39,-0.62,-0.6,0.21,0.47
+teacher_attendance_year_2_pct,-0.42,0.39,1.0,-0.36,-0.28,0.28,0.35
+mobility_rate_pct,0.64,-0.62,-0.36,1.0,0.43,-0.18,-0.36
+suspensions_per_100_students_year_2_pct,0.61,-0.6,-0.28,0.43,1.0,-0.18,-0.46
+climate_score,-0.24,0.21,0.28,-0.18,-0.18,1.0,0.4
+safety_score,-0.54,0.47,0.35,-0.36,-0.46,0.4,1.0
