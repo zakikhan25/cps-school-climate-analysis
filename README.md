@@ -1,7 +1,7 @@
 # CPS School Climate & Attendance Analysis
 
 A data project built around the skills in the CPS Data Strategist posting:
-writing analysis code, statistics on multi-column public data, data quality
+writing analysis code, statistics on multicolumn public data, data quality
 checks, and training non-technical audiences to use data.
 
 **Data:** Chicago Public Schools School Progress Reports, from the Chicago Data Portal (dataset 2dn2-x66j). Public, school-level, no student records.
